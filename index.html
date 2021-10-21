@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- BOXICONS ICONS CSS -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- GOOGLE FONTS CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- MY ICON -->
+    <link rel="icon" href="./img/logo2.PNG">
+    <title>Eliana Lima | Portfólio</title>
+</head>
+
+<body id="bd-top">
+    <div>
+        <header class="header">
+
+            <nav class="nav_container">
+
+                <div class="divLogo">
+                    <a class="logo" href="#bd-top">eml_el</a>
+
+                    <div id="sideMenu" class="sideMenu">
+                        <i class='bx bx-menu menu-icon' onclick="openNav()"></i>
+
+                        <div id="nav-mobile-lista" class="nav-mobile-lista">
+                            <ul>
+                                <li class="nav-menu-mobile">
+                                    <a>
+                                        <i class='bx bx-x menu_link' onclick="closeNav()" id="closeBtn">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="nav-menu-mobile">
+                                    <a href="#bd-top" class="menu_link" onclick="closeNav()">
+                                        <i class='bx bx-home'></i>
+                                        <p>Home</p>
+                                    </a>
+                                </li>
+                                <li class="nav-menu-mobile">
+                                    <a href="#sobre" class="menu_link" onclick="closeNav()">
+                                        <i class='bx bxs-user-detail'></i>
+                                        <p>Sobre</p>
+                                    </a>
+                                </li>
+                                <li class="nav-menu-mobile">
+                                    <a href="#dev" class="menu_link" onclick="closeNav()">
+                                        <i class='bx bx-code-alt dev-icon'></i>
+                                        <p>Desenv</p>
+                                    </a>
+                                </li>
+                                <li class="nav-menu-mobile">
+                                    <a href="#projetos" class="menu_link" onclick="closeNav()">
+                                        <i class='bx bx-layer'></i>
+                                        <p>Projetos</p>
+                                    </a>
+                                </li>
+                                <li class="nav-menu-mobile">
+                                    <a href="#contato" class="menu_link" onclick="closeNav()">
+                                        <i class='bx bxs-contact'></i>
+                                        <p>Contato</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="navMenu">
+                    <ul class="navLista">
+                        <li><a href="#sobre" class="menu_link">Sobre</a></li>
+                        <li><a href="#dev" class="menu_link">Desenvolvimento</a></li>
+                        <li><a href="#projetos" class="menu_link">Projetos</a></li>
+                        <li><a href="#contato" class="menu_link">Contato</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </header>
+
+        <main class="principal">
+            <section class="main1">
+                <div class="secM1">
+                    <div class="mdiv1">
+                        <p>Olá, seja bem-vindo!</p>
+                    </div>
+                    <div class="mdiv2">
+                        <p>Bem-vindo ao meu portfólio particular! Nele você poderá saber um pouco mais sobre mim e
+                            encontrar alguns dos meus últimos
+                            projetos de desenvolvimento web e mobile.</p>
+                        <p>Espero que goste!</p>
+                    </div>
+                </div>
+                <div class="buttonScroll">
+                    <button onclick="window.location.href='#sobre'" class="btn btn-scroll">
+                        <i class='bx bxs-mouse'></i>
+                        <p>Rolar para Baixo</p>
+                        <i class='bx bx-chevrons-down'></i>
+                    </button>
+                </div>
+            </section>
+
+
+            <section id="sobre" class="main2">
+                <h1>Sobre mim</h1>
+                <div class="secM2">
+                    <div class="mdiv3">
+                        <div class="info">
+                            <p class="nome">Eliana Lima</p>
+                            <p class="cargo">Desenvolvedora Full-Stack Jr</p>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='#contato'" class="btn btnContato">Contate-me</button>
+                        </div>
+                    </div>
+
+                    <div class="mdiv4">
+                        <p>Olá sou alguém que realmente ama estudar, aprender coisas novas e sempre estar em ritmo de aprimoramento. Ao escolher a área de Desenvolvimento de Sistemas e começar a estudar no SENAI-SP eu achei o cenário perfeito para tudo isso. Eu simplesmente me apaixonei pela área, e me sinto a cada dia mais desafiada a progredir profissionalmente e pessoalmente, e, por mais que me aprofunde na área, apenas sinto que só estou começando a descobrir sobre esse mundo.</p>
+                    </div>
+                </div>
+                <div class="buttonScroll2">
+                    <button onclick="window.location.href='#dev'" class="btn btn-scroll2">
+                        <i class='bx bxs-mouse'></i>
+                        <p>Rolar para Baixo</p>
+                        <i class='bx bx-chevrons-down'></i>
+                    </button>
+                </div>
+            </section>
+
+            <section id="dev" class="main3">
+                <h1>Desenvolvimento</h1>
+
+                <div class="devLists">
+
+                    <div id="front" class="front">
+                        <div onclick="mostraListaFront()" class="nome-lists">
+                            <i class='bx bx-code-alt'></i>
+                            <p>Desenvolvimento Front-End</p>
+                            <i id="seta" class='bx bx-chevron-down'></i>
+                        </div>
+
+                        <div id="front-list" class="front-list hidden">
+                            <div class="front-list-item">
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JavaScript</p>
+                                <p>React</p>
+                                <p>React Native</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back">
+                        <div onclick="mostraListaBack()" class="nome-lists">
+                            <i class='bx bxs-server'></i>
+                            <p>Desenvolvimento Back-End</p>
+                            <i class='bx bx-chevron-down'></i>
+                        </div>
+
+                        <div id="back-list" class="back-list hidden">
+                            <div class="back-list-item items">
+                                <p>Java</p>
+                                <p>MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ferramentas">
+                        <div onclick="mostraListaFerr()" class="nome-lists">
+                            <i class='bx bxs-cog'></i>
+                            <p>Ferramentas</p>
+                            <i class='bx bx-chevron-down'></i>
+                        </div>
+
+                        <div id="ferramentas-list" class="ferramentas-list hidden">
+                            <div class="ferramentas-list-item items">
+                                <p>Eclipse IDE</p>
+                                <p>Visual Studio Code</p>
+                                <p>MySQL Workbench</p>
+                                <p>Postman</p>
+                                <p>GitHub</p>
+                                <p>Apache TomCat</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="servicos">
+                        <div onclick="mostraListaServ()" class="nome-lists">
+                            <i class='bx bxs-devices'></i>
+                            <p>Serviços</p>
+                            <i class='bx bx-chevron-down'></i>
+                        </div>
+
+                        <div id="servicos-list" class="servicos-list hidden">
+                            <div class="servicos-list-item items">
+                                <p>Web</p>
+                                <p>Back-End</p>
+                                <p>Front-End</p>
+                                <p>Banco de Dados Relacional</p>
+                                <p>Sites Dinâmicos</p>
+                                <p>Mobile</p>
+                                <p>Padrão MVC</p>
+                                <p>REST API</p>
+                                <p>Servlet</p>
+                                <p>Spring Framework</p>
+                                <p>Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="buttonScroll">
+                    <button onclick="window.location.href='#projetos'" class="btn btn-scroll3">
+                        <i class='bx bxs-mouse'></i>
+                        <p>Rolar para Baixo</p>
+                        <i class='bx bx-chevrons-down'></i>
+                    </button>
+                </div>
+            </section>
+
+            <section id="projetos" class="main4">
+                <h1>Projetos</h1>
+
+                <div id="slidesProjFront" class="slidesProjFront">
+
+                    <div class="slides-carrousel">
+                        <div class="setas-carrousel" onclick="plusFront(-1)">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+
+                        <div id="slidesFront" class="slidesFront">
+
+                        </div>
+
+                        <div class="setas-carrousel" onclick="plusFront(+1)">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                    </div>
+
+                    <div class="pontosSlides">
+                        <span class="ponto" onclick="slideAtual(1)"></span>
+                        <span class="ponto" onclick="slideAtual(2)"></span>
+                        <span class="ponto" onclick="slideAtual(3)"></span>
+                    </div>
+
+                    <div class="nameDev">
+                        <i class='bx bx-code-alt iconDev'></i>
+                        <h2>FRONT-END</h2>
+                        <i class='bx bx-code-alt iconDev'></i>
+                    </div>
+                </div>
+
+                <div id="slidesProjBack" class="slidesProjBack">
+
+                    <div class="slides-carrousel">
+                        <div class="setas-carrousel" onclick="plusBack(-1)">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+
+                        <div id="slidesBack" class="slidesBack">
+
+                        </div>
+
+                        <div class="setas-carrousel" onclick="plusBack(+1)">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                    </div>
+
+                    <div class="pontosSlides">
+                        <span class="ponto2" onclick="slideAtual2(1)"></span>
+                        <span class="ponto2" onclick="slideAtual2(2)"></span>
+                        <span class="ponto2" onclick="slideAtual2(3)"></span>
+                    </div>
+
+                    <div class="nameDev">
+                        <i class='bx bxs-server iconDev'></i>
+                        <h2>BACK-END</h2>
+                        <i class='bx bxs-server iconDev'></i>
+                    </div>
+                </div>
+                <div class="buttonScroll">
+                    <button onclick="window.location.href='#contato'" class="btn btn-scroll3">
+                        <i class='bx bxs-mouse'></i>
+                        <p>Rolar para Baixo</p>
+                        <i class='bx bx-chevrons-down'></i>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <section id="contato" class="contato">
+                <h1>Contato</h1>
+                <div id="contatoContainer" class="contatoContainer">
+
+                </div>
+                <div class="buttonScroll2">
+                    <button onclick="window.location.href='#bd-top'" class="btn btn-scroll2">
+                        <i class='bx bxs-mouse'></i>
+                        <p>Voltar ao Topo</p>
+                        <i class='bx bx-chevrons-up'></i>
+                    </button>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Eliana Lima. Todos os direitos reservados.</p>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
