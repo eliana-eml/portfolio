@@ -166,7 +166,7 @@ function showBack(n) {
 
 // Links de Contato
 
-var contato = JSON.parse('[{"github":"https://github.com/eliana-eml", "linkedin": "https://www.linkedin.com/in/eliana-lima-122a8420a/", "email": "mailto:eml.eliana57@hotmail.com"}]');
+var contato = JSON.parse('[{"github":"https://github.com/eliana-eml", "linkedin": "https://www.linkedin.com/in/eliana-moura-lima/", "email": "mailto:eml.eliana57@hotmail.com"}]');
 var listaContato = document.getElementById("contatoContainer");
 
 contato.forEach( function contatoLink(cont)  {
